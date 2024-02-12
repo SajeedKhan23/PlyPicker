@@ -18,7 +18,7 @@ class HomePage extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter+NodeJS+JWT'),
+        title: Text('News Feed'),
         elevation: 0,
         actions: [
           IconButton(
