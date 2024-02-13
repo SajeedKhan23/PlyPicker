@@ -25,16 +25,20 @@ flutter pub get
 '''
 This command will download and install all the dependencies listed in the pubspec.yaml file.
 
-Configuration
+Configuration : 
+
 make sure to go to https://newsapi.org/ and get your key and replace them in news_services.dart file in lib/services/news_services.dart
+And also in config.dart file replace apiUrl with your local system IP address. For IP address go to termincal and run '''ipconfig''' command and copy your IP address from there. 
 
 Build the App
 Before running the app, you may need to build it for your specific platform. Use the following command to build the app:
 
 bash
+
 '''
 flutter build <platform>
 '''
+
 Replace <platform> with the platform you want to build for, such as android, ios, or web.
 
 Run the App
