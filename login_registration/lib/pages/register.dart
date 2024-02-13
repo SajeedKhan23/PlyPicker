@@ -175,18 +175,18 @@ class _RegisterPageState extends State<RegisterPage> {
               hintColor: Colors.white.withOpacity(0.7),
               showPrefixIcon: true,
               borderRadius: 10,
-              obscureText: hidePassword,
-              suffixIcon: IconButton(
-                onPressed: () {
-                  setState(() {
-                    hidePassword = !hidePassword;
-                  });
-                },
-                color: Colors.white.withOpacity(0.7),
-                icon: Icon(
-                  hidePassword ? Icons.visibility_off : Icons.visibility,
-                ),
-              ),
+              // obscureText: hidePassword,
+              // suffixIcon: IconButton(
+              //   onPressed: () {
+              //     setState(() {
+              //       hidePassword = !hidePassword;
+              //     });
+              //   },
+              //   color: Colors.white.withOpacity(0.7),
+              //   icon: Icon(
+              //     hidePassword ? Icons.visibility_off : Icons.visibility,
+              //   ),
+              // ),
             ),
           ),
           const SizedBox(
